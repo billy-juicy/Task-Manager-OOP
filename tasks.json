@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Сделать ДЗ",
+        "description": "по математике",
+        "completed": true
+    },
+    {
+        "title": "Сделать ДЗ",
+        "description": "по математике",
+        "completed": false
+    },
+    {
+        "title": "Купить продукты",
+        "description": "молоко и хлеб",
+        "completed": false
+    },
+    {
+        "title": "Сделать ДЗ",
+        "description": "по математике",
+        "completed": false
+    },
+    {
+        "title": "Купить продукты",
+        "description": "молоко и хлеб",
+        "completed": false
+    }
+]
