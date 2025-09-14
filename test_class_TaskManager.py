@@ -1,9 +1,9 @@
 import unittest
+from main import Task, TaskManager
 
 
 class MyTestCase(unittest.TestCase):
     def test_add_task(self):
-        from main import Task, TaskManager
         manager = TaskManager()
         task = Task("Почитать книгу", "30 минут перед сном")
         manager.add_task(task)
@@ -15,7 +15,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(manager.tasks[0].title, "Почитать книгу")
 
     def test_remove_task(self):
-        from main import Task, TaskManager
         manager = TaskManager()
         task = Task("Почитать книгу")
         manager.add_task(task)
@@ -29,7 +28,6 @@ class MyTestCase(unittest.TestCase):
             manager.remove_task("Несуществующая задача")
 
     def test_mark_task_completed(self):
-        from main import Task, TaskManager
         manager = TaskManager()
         task = Task("Почитать книгу")
         manager.add_task(task)
