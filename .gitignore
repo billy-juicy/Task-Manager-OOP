@@ -1,0 +1,9 @@
+# Виртуальные окружения
+venv/
+.venv/
+
+# Кеши Python
+__pycache__/
+
+# PyCharm
+.idea/
